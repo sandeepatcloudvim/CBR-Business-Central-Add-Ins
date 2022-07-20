@@ -10,10 +10,17 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+        "id":"a80dac3b-0c9c-463d-9be3-b323ff966eea",
+        "publisher": "CBR Technology",
+        "name": "Modern Gourmet BC",
+        "version": "19.0.0.57"
+    }
+  ],
   "screenshots": [],
-  "platform": "17.0.0.0",
-  "application": "17.0.0.0",
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
   "idRanges": [
     {
       "from": 50000,
@@ -22,5 +29,5 @@
   ],
   "contextSensitiveHelpUrl": "https://CBRBusinessCentralAdd-Ins.com/help/",
   "showMyCode": true,
-  "runtime": "6.0"
+  "runtime": "8.0"
 }
