@@ -1077,6 +1077,12 @@ page 55014 "CBR Purchase Line"
                     ToolTip = 'Specifies the work center number of the journal line.';
                     ApplicationArea = All;
                 }
+                //AGT_DS++
+                field("Expiration Date"; Rec."Expiration Date")
+                {
+                    ApplicationArea = ALL;
+                }
+                //AGT_DS--
             }
         }
     }

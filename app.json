@@ -2,7 +2,7 @@
   "id": "4faed079-5099-40e9-bd58-3cdbc03dbb35",
   "name": "CBR Business Central Add-Ins",
   "publisher": "CBR Technology",
-  "version": "19.0.0.0",
+  "version": "19.0.0.2",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -19,8 +19,8 @@
     }
   ],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "19.0.0.0",
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
   "idRanges": [
     {
       "from": 50000,
@@ -29,5 +29,5 @@
   ],
   "contextSensitiveHelpUrl": "https://CBRBusinessCentralAdd-Ins.com/help/",
   "showMyCode": true,
-  "runtime": "8.0"
+  "runtime": "6.0"
 }

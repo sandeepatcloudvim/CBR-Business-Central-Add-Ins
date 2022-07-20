@@ -5,7 +5,7 @@ page 55013 "CBR Purchase Header"
     PageType = List;
     SourceTable = "Purchase Header";
     UsageCategory = Lists;
-    
+
     layout
     {
         area(content)
@@ -817,6 +817,20 @@ page 55013 "CBR Purchase Header"
                     ToolTip = 'Specifies the value of the Your Reference field.';
                     ApplicationArea = All;
                 }
+                //AGT_DS++
+                field("PO Notes"; Rec."PO Notes")
+                {
+                    ApplicationArea = All;
+                }
+                field(PrepaymentDoc; Rec.PrepaymentDoc)
+                {
+                    ApplicationArea = All;
+                }
+                field(PrepaymentAmount; Rec.PrepaymentAmount)
+                {
+                    ApplicationArea = All;
+                }
+                //AGT_DS--
             }
         }
     }

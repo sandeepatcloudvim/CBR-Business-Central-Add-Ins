@@ -5,7 +5,7 @@ page 55012 "CBR Sales Line"
     PageType = List;
     SourceTable = "Sales Line";
     UsageCategory = Lists;
-    
+
     layout
     {
         area(content)
@@ -977,6 +977,21 @@ page 55012 "CBR Sales Line"
                     ToolTip = 'Specifies which work type the resource applies to when the sale is related to a job.';
                     ApplicationArea = All;
                 }
+                //AGT_DS++
+                field("Total Unit Cost"; Rec."Total Unit Cost")
+                {
+                    ApplicationArea = All;
+                }
+                field("Margin %"; Rec."Margin %")
+                {
+                    ApplicationArea = All;
+                }
+                field("Total Gross Weight"; Rec."Total Gross Weight")
+                {
+                    ApplicationArea = All;
+                }
+                //AGT_DS--
+
             }
         }
     }

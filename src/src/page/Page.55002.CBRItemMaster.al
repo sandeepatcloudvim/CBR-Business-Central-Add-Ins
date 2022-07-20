@@ -872,6 +872,24 @@ page 55002 "CBR Item Master"
                 {
                     ApplicationArea = All;
                 }
+                //AGT_DS++
+                field("Suggested Retail"; Rec."Suggested Retail")
+                {
+                    ApplicationArea = All;
+                }
+                field(Brand; Rec.Brand)
+                {
+                    ApplicationArea = All;
+                }
+                field("Royalty %"; Rec."Royalty %")
+                {
+                    ApplicationArea = All;
+                }
+                field(Stock; Rec.Stock)
+                {
+                    ApplicationArea = All;
+                }
+                //AGT_DS--
             }
         }
     }

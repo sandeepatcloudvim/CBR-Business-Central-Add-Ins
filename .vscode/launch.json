@@ -1,6 +1,19 @@
 {
     "configurations": [
     {
+        // "name": "Microsoft cloud sandbox",
+        //     "request": "launch",
+        //     "type": "al",
+        //     "environmentType": "Sandbox",
+        //    "environmentName": "Sandbox",
+        //     "tenant": "d53a389f-cdb3-49bd-bd17-6885a14d151e",
+        //     "startupObjectId": 22,
+        //     "startupObjectType": "Page",
+        //     "breakOnError": true,
+        //     "launchBrowser": true,
+        //     "enableLongRunningSqlStatements": true,
+        //     "enableSqlInformationDebugger": true,
+        //     "schemaUpdateMode":"Synchronize"
         "name": "Your own server",
             "request": "launch",
             "type": "al",

@@ -5,7 +5,7 @@ page 55011 "CBR Sales Header"
     PageType = List;
     SourceTable = "Sales Header";
     UsageCategory = Lists;
-    
+
     layout
     {
         area(content)
@@ -952,6 +952,24 @@ page 55011 "CBR Sales Header"
                     ToolTip = 'Specifies the customer''s reference. The content will be printed on sales documents.';
                     ApplicationArea = All;
                 }
+                //AGT_DS++ Rec.
+                field("Extended Cancel Date"; Rec."Extended Cancel Date")
+                {
+                    ApplicationArea = All;
+                }
+                field("Total Gross Weight"; Rec."Total Gross Weight")
+                {
+                    ApplicationArea = All;
+                }
+                field(DeptCode; Rec.DeptCode)
+                {
+                    ApplicationArea = All;
+                }
+                field(PreTicketed; Rec.PreTicketed)
+                {
+                    ApplicationArea = All;
+                }
+                //AGT_DS--
             }
         }
     }

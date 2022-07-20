@@ -705,6 +705,20 @@ page 55000 "CBR Customer Master"
                 {
                     ApplicationArea = All;
                 }
+                //AGT_DS++
+                field("Dilution %"; Rec."Dilution %")
+                {
+                    ApplicationArea = All;
+                }
+                field("Group Code"; Rec."Group Code")
+                {
+                    ApplicationArea = All;
+                }
+                field("Customer Channel"; Rec."Customer Channel")
+                {
+                    ApplicationArea = All;
+                }
+                //AGT_DS--
             }
         }
     }
